@@ -1,0 +1,206 @@
+body {
+  background-color: #7b7a7b;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  background-color: #ff6b00;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.artist-info {
+  display: flex;
+  align-items: center;
+}
+
+.artist-info h2 {
+  font-size: 28px;
+  margin-right: 0px;
+  margin-top: 50px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.social-button {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 0 5px;
+  color: white;
+  background-color: #333333;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.social-button span {
+  display: none;
+}
+
+.social-button.facebook {
+  background-color: red;
+}
+
+.social-button.twitter {
+  background-color: #1da1f2;
+}
+
+.social-button.instagram {
+  background-color: #c13584;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 58px;
+  font-weight: 800;
+  text-align: center;
+  text-shadow: 2px 2px 4px #919191;
+  margin: 0;
+}
+
+main {
+  padding: 15px;
+  text-align: center;
+  background: linear-gradient(to bottom, #ff6b00, #ff0055, #800080);
+}
+
+#button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to bottom, #ff6b00, #ff0055, #800080);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#button:hover {
+  background-color: #fff0f5;
+}
+
+#button:active {
+  background-color: #808080;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#lyrics {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  line-height: 1.5;
+  color: black;
+}
+
+.verse-1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+  color: black;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+
+.verse-2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 25px;
+  color: white;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.verse-3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  color: black;
+  line-height: 1.5;
+  font-weight: 600;
+  font-style: normal;
+}
+
+footer {
+  color: #232323;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 14px;
+  background-color: #ff6b00;
+}
+
+.left-image {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.right-image {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.left-image img,
+.right-image img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.left-image:nth-child(3),
+.right-image:nth-child(4) {
+  clear: both;
+}
+
+.left-image:nth-child(3) {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.right-image:nth-child(4) {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.left-image:nth-child(3) img,
+.right-image:nth-child(4) img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+
+
+header {
+  flex-direction: column;
+  text-align: left;
+}
+
+.artist-info {
+  margin-right: auto;
+ 
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.social-media {
+  margin-top: 20px;
+}
